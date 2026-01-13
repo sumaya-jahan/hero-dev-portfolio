@@ -11,12 +11,14 @@
 header{
     background-color:#FFF8F3;
     padding-top: 50px;
+    background: url("images/developer.png"),url("images/header_bg.png"),#FFF8F3;
+    background-position:top left,bottom right ;
+    background-repeat: no-repeat;
 }
 nav{
     width: 71%;
     max-width: 1140px;
-    border: 1px solid black;
-    margin: 0px auto;
+    margin: 0px 216px 0px 244px;
     display:flex;
     justify-content: space-between;
 }
@@ -44,4 +46,40 @@ nav .menu{
    font-size: 20px;
    font-weight: bold;
    color: white;
+   cursor: pointer;
+}
+#banner{
+    margin: 47px 24px 0px 244px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 500;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+#banner .banner-img{
+    max-width: 584px;
+    vertical-align: middle;
+}
+img{
+    display: block;
 }
